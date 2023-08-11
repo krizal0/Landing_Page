@@ -1,0 +1,76 @@
+.container{
+    display:flex;
+    height: 500px;
+    width: auto;
+    border: 4px solid black;
+    background-color: #1f2937;
+    flex-direction: column;
+}
+.logo{
+    margin:auto;
+    width: auto;
+    
+
+
+}
+.nav{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    padding:.5em ;  
+    font: 18px #E5E7EB ;
+}
+.button{
+    background-color: lightblue;
+}
+.second{
+    display: flex;
+    flex-wrap: wrap;
+    font: 48px extra-bold #F9FAF8;
+}
+.courses{
+    display: flex;
+    height: 200px;
+    border: 4px solid black;
+    background-color: white;
+}
+.courses div{
+    flex: 1;
+    text-align:center;
+    font-size: medium;
+    color:#fff;
+    align-items: center;
+
+}
+
+.quotes{
+    display: flex;
+    height: 200px;
+    border: 4px solid black;
+    background-color: #E5E7EB;
+    align-items: center;
+    font: 36px light italic #1F2937
+    
+}
+.box{
+    display: flex;
+    border: 4px solid black;
+    padding: 4px;
+    height: 48px;
+    align-items: center;
+}
+.box2{
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+
+}
+.last{
+    display:flex;
+    height: 100px;
+    width: auto;
+    border: 4px solid black;
+    background-color: #1f2937;
+    flex-direction: column;
+    text-align: center;
+}

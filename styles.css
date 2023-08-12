@@ -1,76 +1,173 @@
-.container{
-    display:flex;
-    height: 500px;
-    width: auto;
-    border: 4px solid black;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    font-family: 'Roboto', sans-serif;
     background-color: #1f2937;
+    padding: 1em 13em;
+}
+.logo {
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1.5em;
+}
+
+.nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1.5em;
+    color: #1f2937;
+}
+
+.secondary, a:link {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.welcome {
+    padding: 7em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.welcome .left {
+    display: flex;
     flex-direction: column;
+    gap: 10px;
 }
-.logo{
-    margin:auto;
-    width: auto;
-    
 
+.welcome .right {
+    flex-shrink: 0;
+    width: 50%;
+}
 
+.title {
+    color: #F9FAF8;
+    font-weight: 800;
+    font-size: 40px;
 }
-.nav{
+
+button {
+    padding: 7px 1em;
+    width: 220px;
+    background-color: royalblue;
+    border-radius: 8px;
+}
+
+button:hover{
+    background-color: brown;
+}
+
+.image {
+    background-color: gray;
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-start;
-    padding:.5em ;  
-    font: 18px #E5E7EB ;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
 }
-.button{
-    background-color: lightblue;
-}
-.second{
+
+main {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 13em;
+    margin-top: 3em;
+}
+
+main h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
-    font: 48px extra-bold #F9FAF8;
-}
-.courses{
-    display: flex;
-    height: 200px;
-    border: 4px solid black;
-    background-color: white;
-}
-.courses div{
-    flex: 1;
-    text-align:center;
-    font-size: medium;
-    color:#fff;
-    align-items: center;
-
+    margin: 3em 0 6em 0;
 }
 
-.quotes{
-    display: flex;
-    height: 200px;
-    border: 4px solid black;
-    background-color: #E5E7EB;
-    align-items: center;
-    font: 36px light italic #1F2937
-    
-}
-.box{
-    display: flex;
-    border: 4px solid black;
-    padding: 4px;
-    height: 48px;
-    align-items: center;
-}
-.box2{
-    align-items: center;
-    flex-direction: row-reverse;
-    justify-content: flex-start;
-
-}
-.last{
-    display:flex;
-    height: 100px;
-    width: auto;
-    border: 4px solid black;
-    background-color: #1f2937;
-    flex-direction: column;
+.card {
     text-align: center;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5em;
+}
+
+.square {
+    border: 4px solid #3882F6;
+    border-radius: 20px;
+    width: 160px;
+    height: 160px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 7em 13em;
+}
+
+.quote p {
+    align-self: flex-end;
+    font-weight: bolder;
+    font-size: 24px;
+    color: #1f2937;
+}
+
+.quote em {
+    font-size: 36px;
+    font-weight: 100;
+    color: #1f2937;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5em 13em;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 3em;
+    width: 100%;
+    border-radius: 10px;
+}
+
+button {
+    border: 2px solid #FFF;
+}
+
+strong {
+    font-size: 24px;
+    color: #FFF;
+}
+
+footer {
+    background-color: #1f2937;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 0;
 }
